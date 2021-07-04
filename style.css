@@ -1,9 +1,39 @@
-body{
+body {
     font-family: 'Poppins', sans-serif;
 }
-h1{
+
+h1 {
     font-size: 50px;
 }
-.name_title{
+
+.name_title {
     color: orange;
+}
+
+section {
+    display: flex;
+}
+
+.sec1_lft_txt {
+    width: 50%;
+    padding-left: 5%;
+}
+
+.sec1_img {
+    width: 50%;
+    padding-left: 5%;
+
+}
+
+.sec1_img img {
+    width: 80%;
+}
+
+.link_button {
+    text-decoration: none;
+    background-image: linear-gradient(90deg, lightsalmon, tomato);
+    color: white;
+    font-weight: 700;
+    padding: 10px 40px;
+    border-radius: 5px;
 }
