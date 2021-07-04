@@ -9,6 +9,11 @@ h1 {
 
 p {
     color: dimgray;
+
+}
+
+h2 {
+    font-size: 40px;
 }
 
 .name_title {
@@ -17,21 +22,27 @@ p {
 
 section {
     display: flex;
+    margin-bottom: 100px;
 }
 
-.sec1_lft_txt {
+.half_width {
     width: 50%;
     padding-left: 5%;
 }
 
-.sec1_img {
-    width: 50%;
-    padding-left: 5%;
 
-}
 
-.sec1_img img {
+.half_width img {
     width: 80%;
+}
+
+.sec2 .half_width img {
+    width: 100%;
+}
+
+.txt {
+    padding-top: 100px;
+    margin-right: 10%;
 }
 
 .link_button {
@@ -46,4 +57,10 @@ section {
 .sec1 {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.sec2 {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
