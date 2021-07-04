@@ -9,6 +9,7 @@ h1 {
 
 p {
     color: dimgray;
+    text-align: justify;
 
 }
 
@@ -20,7 +21,7 @@ h2 {
     color: orange;
 }
 
-section {
+.flexible_container {
     display: flex;
     margin-bottom: 100px;
 }
@@ -63,4 +64,42 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.org_colr {
+    color: orange;
+}
+
+.exp_item {
+    box-shadow: 5px 7px 40px grey;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+.sec3 {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#web_dev {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+
+}
+
+#design {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+
+}
+
+footer p {
+    text-align: center;
 }
